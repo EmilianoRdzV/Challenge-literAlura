@@ -16,37 +16,6 @@
 - **Top 10 libros más descargados:** Presenta un ranking de los libros más populares.
 - **Búsqueda de autores por nombre:** Encuentra información de autores registrados.
 
-## Estructura del proyecto
-
-```
-Literalura/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/geniedev/Literalura/
-│   │   │       ├── model/
-│   │   │       │   ├── Autor.java
-│   │   │       │   ├── Libro.java
-│   │   │       │   └── Idiomas.java
-│   │   │       ├── service/
-│   │   │       │   ├── AutorService.java
-│   │   │       │   ├── LibroService.java
-│   │   │       │   └── ConsumoAPI.java
-│   │   │       ├── repository/
-│   │   │       │   ├── AutorRepository.java
-│   │   │       │   └── LibroRepository.java
-│   │   │       ├── principal/
-│   │   │       │   └── Principal.java
-│   │   │       └── LiteraluraApplication.java
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       └── data.sql
-├── pom.xml
-└── README.md
-```
-
-
-
 ## Requisitos
 - Java 17+
 - Maven 3+
@@ -63,10 +32,10 @@ Literalura/
    ```
 3. Configurar la base de datos en `application.properties`:
    ```properties
-  spring.datasource.url=${DB_URL}
-spring.datasource.username=${DB_USER}
-spring.datasource.password=${DB_PASSWORD}
-spring.jpa.hibernate.ddl-auto=update
+   spring.datasource.url=${DB_URL}
+   spring.datasource.username=${DB_USER}
+   spring.datasource.password=${DB_PASSWORD}
+   spring.jpa.hibernate.ddl-auto=update
    ```
 
 4. Construir el proyecto con Maven:
@@ -97,13 +66,3 @@ Al ejecutar la aplicación, aparecerá un menú con las siguientes opciones:
 Elija la opción a través de su número:
 ```
 
-## Contribución
-Las contribuciones son bienvenidas. Para contribuir, sigue estos pasos:
-1. Fork del repositorio
-2. Crear una rama con una nueva funcionalidad: `git checkout -b nueva-funcionalidad`
-3. Commit de los cambios: `git commit -m "Añadida nueva funcionalidad"`
-4. Push de la rama: `git push origin nueva-funcionalidad`
-5. Crear un Pull Request
-
-## Licencia
-Este proyecto está bajo la licencia MIT.
