@@ -24,7 +24,7 @@
 ## Instalación
 1. Clonar el repositorio:
    ```bash
-   [git clone https://github.com/usuario/Literalura.git](https://github.com/EmilianoRdzV/Challenge-literAlura.git)
+   https://github.com/EmilianoRdzV/Challenge-literAlura.git
    ```
 2. Navegar al directorio del proyecto:
    ```bash
