@@ -63,10 +63,10 @@ Literalura/
    ```
 3. Configurar la base de datos en `application.properties`:
    ```properties
-   spring.datasource.url=jdbc:postgresql://localhost:5432/literalura
-   spring.datasource.username=tu_usuario
-   spring.datasource.password=tu_contraseña
-   spring.jpa.hibernate.ddl-auto=update
+  spring.datasource.url=${DB_URL}
+spring.datasource.username=${DB_USER}
+spring.datasource.password=${DB_PASSWORD}
+spring.jpa.hibernate.ddl-auto=update
    ```
 
 4. Construir el proyecto con Maven:
